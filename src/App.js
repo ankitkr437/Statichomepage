@@ -1,11 +1,14 @@
 import './App.css';
-import Topbar from "./Topbar.jsx"
+import Navbar  from './components/Navbar';
 function App() {
   return (
     <div className="App">
       <div className='home-container'>
-        <Topbar />
-        <img src='https://www.iiitdmj.ac.in/others/workshops/karyashala-CGP/img2.jpg' alt='Workshop.jpg' />
+        < Navbar />
+        <div className="img-main" style = {{display : "flex" , justifyContent: "center"}}>
+         <img src='https://www.iiitdmj.ac.in/others/workshops/karyashala-CGP/img2.jpg' alt='Workshop.jpg' />
+        </div>
+       
         <hr />
         <div className='main-content'>
           <div className='left-content'>
@@ -16,7 +19,7 @@ function App() {
                 Karyashala Objectives:
               </h3>
               <p className='left-content-metadata'>
-                'KARYASHALA' is a noble endeavor of Government of India by Science and Engineering Board (SERB) under Accelerate Vigyan Scheme to improve research productivity of promising PG and PhD students from universities and colleges through high-end workshops on specific themes. This program aims to provide opportunities to acquire specialized research skills. These workshops will primarily be facilitated at organizations / institutions / laboratories of national importance. PDPM Indian Institute of Information Technology, Design and Manufacturing Jabalpur has decided to be a part of this unique initiative and share our Institutional resources with the society towards higher goals of national importance. Thus, the current workshop has come into being. This event is sponsored by SERB.
+                'KARYASHALA' is a noble endeavor of Government of India by Science and Engineering Board (SERB) under Accelerate Vigyan Scheme to improve research productivity of promising PG and PhD students from universities and colleges through high-end workshops on specific themes. This program aims to provide opportunities to acquire specialized research skills. These workshops will primarily be facilitated at organizations / institutions / laboratories of national importance. PDPM Indian Institute of Information Technology, Design and Manufacturing Jamshedpur has decided to be a part of this unique initiative and share our Institutional resources with the society towards higher goals of national importance. Thus, the current workshop has come into being. This event is sponsored by SERB.
               </p>
             </div>
 
@@ -71,10 +74,10 @@ function App() {
 
           <div className='left-content-data'>
             <h3 className='left-content-head'>
-            About PDPM IIITDM Jabalpur:
+            About PDPM NIT Jamshedpur:
             </h3>
             <p className='left-content-metadata'>
-            IIITDM Jabalpur is an Institute of National Importance, established by Government of India in 2005 with a focus on education and research in IT enabled Design and Manufacturing. Since its inception, PDPM IIITDM Jabalpur has been playing a vital role in producing quality human resources for contribution in India’s mission of inclusive and sustainable growth. The Institute offers undergraduate, post graduate and PhD programmes in Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering, Design and PhD programmes in Natural Sciences (Mathematics and Physics). Under IIIT act, the Institute has been declared as an Institute of National Importance in January 2015. The Institute campus is being developed on 250 acres of land close to Dumna Airport, Jabalpur. The Institute is locsted at a distance of 10 kms from the Jabalpur railway station and 5.5 kms from Dumna Airport, Jabalpur.
+            NIT Jamshedpur is an Institute of National Importance, established by Government of India in 2005 with a focus on education and research in IT enabled Design and Manufacturing. Since its inception, PDPM NITM Jamshedpur has been playing a vital role in producing quality human resources for contribution in India’s mission of inclusive and sustainable growth. The Institute offers undergraduate, post graduate and PhD programmes in Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering, Design and PhD programmes in Natural Sciences (Mathematics and Physics). Under IIIT act, the Institute has been declared as an Institute of National Importance in January 2015. The Institute campus is being developed on 250 acres of land close to Dumna Airport, Jamshedpur. The Institute is locsted at a distance of 10 kms from the Jamshedpur railway station and 5.5 kms from Dumna Airport, Jamshedpur.
             </p>
           </div>
 
@@ -99,11 +102,74 @@ function App() {
             </img>
           </div>
 
+          <div className='right-content-data'>
+            <p className='right-content-head'>
+            Important Dates:
+            </p>
+            <h4>Registration opens: 23 June 2022</h4>
+            <h4>Last date for registration: 10 July 2022</h4>
+            <h4>Display of shortlisted candidates: 12 July 2022</h4>
+            <h4>Workshop dates: 24-30 July 2022</h4>
+            
+          </div>
+
+
+          <div className='right-content-data'>
+            <p className='right-content-head'>
+              Chief Patron
+            </p>
+            <p >
+            Prof. P. N. Kondekar,
+            </p>
+            <p >
+            Director
+            </p>
+            <p >
+            NIT Jamshedpur
+            </p>
+            
+          </div>
+
+          <div className='right-content-data'>
+            <p className='right-content-head'>
+              Organizing Committee
+            </p>
+            <p >
+            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            </p>
+            <p >
+            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            </p>
+            <p >
+            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            </p>
+            
+          </div>
+          <div className='right-content-data'>
+            <p className='right-content-head'>
+              Event Organizer
+            </p>
+            <p >
+            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            </p>
+            <p >
+            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            </p>
+            <p >
+            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            </p>
+            
+          </div>
+
+
+         
 
         </div>
       </div>
+      <div className='footer'> Copyright © 2022 nitjsr.ac.in Web Support: Aman </div>
     </div>
-    </div >
+    
+    </div>
   );
 }
 
