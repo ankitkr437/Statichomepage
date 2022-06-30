@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import {BrowserRouter as Router, Routes , Route , NavLink} from "react-router-dom";
+import './Navbar.css';
 import {FaTimes , FaBars} from "react-icons/fa"
 
 const Home = () => {
@@ -45,8 +46,9 @@ function NavBar() {
        <div className={click ? "main-container2" : ""}  onClick={()=>Close()} />
         <nav className="navbar" onClick={e => e.stopPropagation()}>
           <div className="nav-container">
-            <NavLink exact to="/" className="nav-logo">
-              NIT Jsr
+            <NavLink exact to="https://www.nitjsr.ac.in/" className="nav-logo">
+              NIT
+              <span style={{color:"#3695e1"}}> Jamshedpur</span>
             </NavLink>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
@@ -74,12 +76,12 @@ function NavBar() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="/"
+                  to="https://www.nitjsr.ac.in/"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
                 >
-                  About NIT Jsr
+                  About NIT JSR
                 </NavLink>
               </li>
             </ul>

@@ -1,10 +1,12 @@
  .App{
     background-color: rgb(235, 228, 228);
     padding: 0 6vw;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gentium Book Plus', serif;
  }
  body {
     line-height: 1;
+    padding: 0;
+    margin: 0;
 }
 img{
     max-width:  100%;
@@ -21,7 +23,25 @@ img{
     flex-direction: row;
     margin-top: 2vh;
 }
-
+.home-title{
+   background-color: white;
+   height: 12vh;
+   width: 88vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.home-title-text{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(25, 76, 126);
+  font-family: 'Gentium Book Plus', serif;
+font-family: 'Roboto', sans-serif;
+}
+.img-main{
+  flex-direction: column;
+}
 @media screen and (max-width: 768px){
     .main-content{
         display: grid;
@@ -47,7 +67,7 @@ img{
     font-weight: bold;
 }
 .left-content-metadata{
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 1.9em;
     margin-bottom: 20px;
@@ -59,8 +79,6 @@ img{
     color: rgb(30, 52, 125);
 }
 .right-content-metadata{
-    font-size: 13px;
-    font-weight: 400;
     line-height: 1.9em;
     margin-bottom: 20px;
 }
@@ -217,7 +235,6 @@ img{
   }
   .footer{
     display: flex;
-    width: 100%;
     height: px;
     padding: 1% .2%;
     background-color: #000;
