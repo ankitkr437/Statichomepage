@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import {BrowserRouter as Router, Routes , Route , NavLink} from "react-router-dom";
 import './Navbar.css';
-import {FaTimes , FaBars} from "react-icons/fa"
+import {FaEllipsisV , FaBars} from "react-icons/fa"
 
 const Home = () => {
     return (
@@ -87,7 +87,7 @@ function NavBar() {
             </ul>
             <div className="nav-icon" onClick={handleClick}>
             {
-                click ? <FaTimes/> : <FaBars/>
+                click ? <FaEllipsisV/> : <FaBars/>
             }
             </div>
           </div>

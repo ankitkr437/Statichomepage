@@ -275,8 +275,7 @@ font-family: 'Roboto', sans-serif;
     .footer{
       font-size: 11px;
     }
-    .nav-logo {
-      font-weight: 700;
+    .nav-logo active{
       font-size: 24px;
-  }
+    }
   }
