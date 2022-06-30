@@ -9,7 +9,7 @@ function App() {
           <div className='home-title'>
          <p className='home-title-text'>High End Workshop on AI for Addressing Problems in Precision Oncology</p>
          </div>
-         <img src='/poster2.jpeg' />
+         <img src='/poster2.jpeg' alt='poster.jpg'/>
         </div>
        
         <hr />
