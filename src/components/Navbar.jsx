@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import {BrowserRouter as Router, Routes , Route , NavLink} from "react-router-dom";
 import './Navbar.css';
-import {FaEllipsisV , FaBars,FaTimes} from "react-icons/fa"
+import {FaEllipsisV , FaTimes} from "react-icons/fa"
 
 const Home = () => {
     return (
