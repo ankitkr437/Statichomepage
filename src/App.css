@@ -46,6 +46,22 @@ font-family: 'Roboto', sans-serif;
     .main-content{
         display: grid;
     }
+    .home-title-text{
+      font-size: 13px;
+    }
+    .App{
+      padding: 0 2vw;
+   }
+   .home-container{
+    width: 94vw;
+    }
+    .home-title{
+      width: 94vw;
+    }
+    .App{
+      padding: 0 3vw;
+   }
+  
 }
 .left-content{
     display: flex;
@@ -65,6 +81,7 @@ font-family: 'Roboto', sans-serif;
 .left-content-head{
     color: rgb(30, 52, 125);
     font-weight: bold;
+    font-size: 35px;
 }
 .left-content-metadata{
     font-size: 17px;
@@ -87,8 +104,20 @@ font-family: 'Roboto', sans-serif;
      height: 10vw;
 }
 
-
-
+@media screen and (max-width: 768px){
+  .left-content{
+    padding: 0 1vh;
+  }
+  .right-content{
+    padding: 0 1vh;
+  }
+  .left-content-head{
+    font-size: 23px;
+  }
+  .left-content-metadata{
+    font-size: 14px;
+  }
+}
 .navbar {
     background-color: rgb(39 65 135);
     height: 80px;
@@ -241,4 +270,13 @@ font-family: 'Roboto', sans-serif;
     color: #666;
     flex-wrap: nowrap;
     justify-content: center;
+  }
+  @media screen and (max-width: 768px){
+    .footer{
+      font-size: 11px;
+    }
+    .nav-logo {
+      font-weight: 700;
+      font-size: 24px;
+  }
   }
