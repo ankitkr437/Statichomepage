@@ -46,7 +46,7 @@ function NavBar() {
        <div className={click ? "main-container2" : ""}  onClick={()=>Close()} />
         <nav className="navbar" onClick={e => e.stopPropagation()}>
           <div className="nav-container">
-            <NavLink exact to="https://www.nitjsr.ac.in/" className="nav-logo">
+            <NavLink exact to="/" className="nav-logo">
               NIT
               <span style={{color:"#3695e1"}}> Jamshedpur</span>
             </NavLink>
@@ -76,7 +76,7 @@ function NavBar() {
               <li className="nav-item">
                 <NavLink
                   exact
-                  to="https://www.nitjsr.ac.in/"
+                  to="/"
                   activeClassName="active"
                   className="nav-links"
                   onClick={click ? handleClick : null}
