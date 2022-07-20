@@ -22,7 +22,12 @@ function App() {
                 Karyashala Objectives:
               </p>
               <p className='left-content-metadata'>
-                'KARYASHALA' is a noble endeavor of Government of India by Science and Engineering Board (SERB) under Accelerate Vigyan Scheme to improve research productivity of promising PG and PhD students from universities and colleges through high-end workshops on specific themes. This program aims to provide opportunities to acquire specialized research skills. These workshops will primarily be facilitated at organizations / institutions / laboratories of national importance. PDPM Indian Institute of Information Technology, Design and Manufacturing Jamshedpur has decided to be a part of this unique initiative and share our Institutional resources with the society towards higher goals of national importance. Thus, the current workshop has come into being. This event is sponsored by SERB.
+                'KARYASHALA' is a noble endeavor of Government of India by Science and E
+                ngineering Board (SERB) under Accelerate Vigyan Scheme to improve research productivity of promising PG and PhD 
+                students from universities and colleges through high-end workshops on specific themes. 
+                This program aims to provide opportunities to acquire specialized research skills. 
+                These workshops will primarily be facilitated at organizations / institutions / laboratories of national importance.
+                National Institute of Technology Jamshedpur also play vitil role and decided to be a part of this unique initiative and share our Institutional resources with the society towards higher goals of national importance. Thus, the current workshop has come into being. This event is sponsored by SERB.
               </p>
             </div>
 
