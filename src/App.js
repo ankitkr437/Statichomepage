@@ -127,7 +127,7 @@ function App() {
               Chief Patron
             </p>
             <p >
-            Prof. P. N. Kondekar,
+            Prof. K. K. Shukla,
             </p>
             <p >
             Director
@@ -143,13 +143,13 @@ function App() {
               Organizing Committee
             </p>
             <p >
-            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            Prof. R.v. sharma, Dy.Director
             </p>
             <p >
-            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            Prof.Sanjay ,Dean, R&C
             </p>
             <p >
-            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+             Dr.Sanjay Kumar, HOD, C.S.E
             </p>
             
           </div>
@@ -158,15 +158,17 @@ function App() {
               Event Organizer
             </p>
             <p >
-            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+             Dr.Koushlendra Kumar Singh
             </p>
             <p >
-            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+            Assistant Professor
             </p>
             <p >
-            Prof. Prabin Kumar Padhy, IIITDM Jabalpur
+             Department of C.S.E
             </p>
-            
+            <p >
+           NIT Jamshedpur
+            </p>
           </div>
 
 
