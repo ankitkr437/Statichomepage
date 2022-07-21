@@ -38,7 +38,24 @@ function App() {
                 About the Workshop:
               </p>
               <p className='left-content-metadata'>
-                'KARYASHALA' is aimed to provide hands-on experience to the students primarily from universities, colleges, private academic institutions, and newly established institutes in handling/troubleshooting of high-end scientific instruments and such skill development on themes required for research work. The program is meant to support motivated PG and Ph.D. level students, who are having a strong willingness to get excellence in their scientific and engineering research pursuits in the field of Bioinformatics and Computational Genomics &Proteomics. The objective of the course is to examine current issues in Mathematical Biology, Computational Biology and Bioinformatics from an engineering perspective. A major goal of this course is to introduce students studying Biology or Biochemistry to the concepts and analytical techniques of engineering. Likewise, engineers will be exposed to the terminology and concepts of Molecular Biology, Genomics and Proteomics. Students, faculty and researchers in Computer Engineering, Electrical Engineering, Bioinformatics, Biology, and Biochemistry will be the targeted participants.
+                'KARYASHALA' is aimed to provide hands-on experience to the students primarily from universities, colleges, private academic institutions,
+                  and newly established institutes in handling/troubleshooting of high-end scientific instruments and such skill development on themes 
+                  required for research work. The program is meant to support motivated PG and Ph.D. level students.All over the world cancer is one of the Major causes of death. The diagnosis of Cancer is
+becoming more effective with the help of Artificial Intelligence technology. Medical
+Professionals can quickly and accurately sort through different medical images like CTs, MRIs,
+PETs, X-rays etc. with the help of Artificial Intelligence (AI). AI will help in early detection of all
+types of Cancer present in any patient and it will reduce the mortality rate. The present
+workshop focused on the Challenges facing by Medical Professional in detection and
+classification of Medical Images. The workshop provides a platform to researcher, medical
+professional and scientists of AI to address the challenges of diagnosis through AI so that the
+technology becomes cheap. The workshop also addresses the gap in prevention and control
+of the cancer. There is a need to develop expertise and exposure to design and development
+of AI based algorithms and application of machine Learning in Oncology among PG/PhD
+scholars and young faculty members. With this view this 6 days’ program is designed to
+acclimatise them both on front of experimental and computational aspects of Artificial
+Intelligence and its applications through high end lectures and hands on practice on latest
+facilities. It would be interesting to introduce AI and its use in field of diagnosis of Cancer to
+young minds.
               </p>
             </div>
 
@@ -48,15 +65,13 @@ function App() {
               </p>
               <p className='left-content-metadata'>
                 <ol start="1" type="1">
-                  <li>Accessing DNA &amp; Protein Data Bases </li>
-                  <li>Study of DNA and Amino Acid Mapping Schemes </li>
-                  <li> Genomic
-                    &amp; Proteomic Signal Processing</li>
-                  <li>Statistical Methods for Genomics &amp; Proteomics </li>
-                  <li>Genomic &amp; Proteomic Data Analysis Using Machine
-                    Learning </li>
-                  <li>MATLAB Bioinformatics Toolbox </li>
-
+                  <li>To explore the Computational Issues in Oncology. </li>
+                  <li>To develop analytical and experimental skills on AI </li>
+                  <li> To address new artificial intelligence (AI) and machine learning methods to diagnose
+and predict therapy responses for a variety of cancers.</li>
+                  <li>To address gap in the field of cancer prevention and control.</li>
+                  <li>Awareness about cancer prevention and control. </li>
+                  <li>To enhance the computational diagnosis and research in radiology. </li>
                 </ol>
             </p>
           </div>
@@ -127,7 +142,7 @@ function App() {
               Chief Patron
             </p>
             <p >
-            Prof. K. K. Shukla,
+            Prof. K.K. Shukla,
             </p>
             <p >
             Director
@@ -143,10 +158,10 @@ function App() {
               Organizing Committee
             </p>
             <p >
-            Prof. R.v. sharma, Dy.Director
+            Prof. R.V. Sharma, Dy.Director
             </p>
             <p >
-            Prof.Sanjay ,Dean, R&C
+            Prof.Sanjay, Dean, R&C
             </p>
             <p >
              Dr.Sanjay Kumar, HOD, C.S.E
@@ -158,16 +173,7 @@ function App() {
               Event Organizer
             </p>
             <p >
-             Dr.Koushlendra Kumar Singh
-            </p>
-            <p >
-            Assistant Professor
-            </p>
-            <p >
-             Department of C.S.E
-            </p>
-            <p >
-           NIT Jamshedpur
+            Dr. Koushlendra Kumar Singh, Assistant Professor, NIT Jamshedpur
             </p>
           </div>
 
