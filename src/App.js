@@ -97,7 +97,7 @@ and predict therapy responses for a variety of cancers.</li>
 
           <div className='left-content-data'>
             <p className='left-content-head'>
-            About PDPM NIT Jamshedpur:
+            About NIT Jamshedpur:
             </p>
             <p className='left-content-metadata'>
             NIT Jamshedpur is an Institute of National Importance, established by Government of India in 2005 with a focus on education and research in IT enabled Design and Manufacturing. Since its inception, PDPM NITM Jamshedpur has been playing a vital role in producing quality human resources for contribution in India’s mission of inclusive and sustainable growth. The Institute offers undergraduate, post graduate and PhD programmes in Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering, Design and PhD programmes in Natural Sciences (Mathematics and Physics). Under IIIT act, the Institute has been declared as an Institute of National Importance in January 2015. The Institute campus is being developed on 250 acres of land close to Dumna Airport, Jamshedpur. The Institute is locsted at a distance of 10 kms from the Jamshedpur railway station and 5.5 kms from Dumna Airport, Jamshedpur.
